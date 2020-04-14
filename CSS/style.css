@@ -1,0 +1,93 @@
+body {
+    background: rgb(126, 76, 76);
+   
+  }
+  #first {
+     max-width: 100%;
+     height: auto;
+    }
+    h1{
+        text-align: center;
+        font-size: 150px;
+    }
+    /* for nav */
+    #navu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navli {
+        float: left;
+        
+      }
+      
+      li a {
+        display: block;
+       color: white;
+       
+        text-align: center;
+        padding: 30px 31px;
+        text-decoration: none;
+        font-size: 25px;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+      #sec{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        padding-top: 3cm;
+
+      }
+      #img3{
+        width: 200px;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #tit{
+        text-align: center;
+        font-size: 50px;
+      }
+      
+      P{
+        text-align: center;
+        font-size: 25px;
+      }
+     li {
+       text-align: center;
+       text-decoration: none;
+       font-size: 25px;
+     }
+    ul{
+      list-style-type: none;
+    }
+    .wrapper {
+      text-align: center;
+  }
+  
+  .btn {
+    margin:auto;
+    display:block;
+  }
+  #ftr{
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  #ftr2{
+    text-align: center;
+    font-size: 15px;
+  }
+  #ftr3{
+    text-align: left;
+    font-size: 15px;
+  }
