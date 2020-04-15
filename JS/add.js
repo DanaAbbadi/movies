@@ -1,6 +1,7 @@
 'use strict'
 var rate;
 var rate2;
+var txt;
 function myFunction() {
   rate= confirm("How about rating our service then");
   if (rate) {
