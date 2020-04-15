@@ -1,11 +1,11 @@
 var rate;
 var rate2;
 function myFunction() {
-  rate= confirm("How about rating our servise then");
+  rate= confirm("How about rating our service then");
   if (rate) {
     rate2= prompt("Thank you, please rate us out of 5");
     if(rate2>=4 && rate2<=5){
-      txt = "Awsome, thank you";
+      txt = "Awesome, thank you";
     }
     else if(rate2>=2 && rate2<=3){
       txt = "We will do our best";
