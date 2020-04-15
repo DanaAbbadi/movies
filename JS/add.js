@@ -33,3 +33,13 @@ function myFunction2() {
   }
   document.getElementById("demo").innerHTML = txt;
 }
+function changeText(value) {
+    var div = document.getElementById("div");
+    var text = "";
+
+    if (value == 1) text += "Small:3JOD | Mediam:4JOD | Large:5JOD";
+    if (value == 2) text += "Nachos: 5JOD";
+    if (value == 3) text += "Soda: 1.5JOD | Water: 1JOD | Coffee: 2.7JD";
+
+    div.innerHTML = text;
+}
