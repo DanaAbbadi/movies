@@ -1,3 +1,4 @@
+'use strict'
 var rate;
 var rate2;
 function myFunction() {
