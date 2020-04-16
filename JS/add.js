@@ -59,10 +59,12 @@ function set(){
 }
 function pnt(a){
   var tickets= " ";
+  var div = document.getElementById("div1");
   for(var i=1 ; i<= st ; i++){
     tickets += '<img class="try" src="https://previews.123rf.com/images/alena08/alena081803/alena08180300059/97699156-cinema-ticket-movie-ticket-template-isolated-on-white-background-vector.jpg"  >' 
    
   }
-   return  document.write(tickets);
+  //  return  document.write(tickets);
+  div.innerHTML = tickets;
 }
 
