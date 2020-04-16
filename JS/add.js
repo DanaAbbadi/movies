@@ -2,10 +2,19 @@
 var rate;
 var rate2;
 var txt;
+var st;
 function myFunction() {
   rate= confirm("How about rating our service then");
   if (rate) {
     rate2= prompt("Thank you, please rate us out of 5");
+    
+    while(isNaN(rate2)){
+      rate2= prompt("please rate us out of 5");
+    }
+    while(rate2 > 5 || rate2 < 1 ){
+      /* for strings : || rate2 >=  "&#57" || rate2 <=  "&#49" */
+      rate2= prompt("please give a rate between 1 and 5");
+    }
     if(rate2>=4 && rate2<=5){
       txt = "Awesome, thank you";
     }
@@ -19,7 +28,8 @@ function myFunction() {
     }
     document.getElementById("demo").innerHTML = txt;
 
-  } else {
+  } 
+  else {
     txt = "You pressed Cancel!";
   }
 }
@@ -43,3 +53,16 @@ function changeText(value) {
 
     div.innerHTML = text;
 }
+function set(){
+  st = prompt("How many tickets you want?");
+  pnt(st);
+}
+function pnt(a){
+  var tickets= " ";
+  for(var i=1 ; i<= st ; i++){
+    tickets += '<img class="try" src="https://previews.123rf.com/images/alena08/alena081803/alena08180300059/97699156-cinema-ticket-movie-ticket-template-isolated-on-white-background-vector.jpg"  >' 
+   
+  }
+   return  document.write(tickets);
+}
+
